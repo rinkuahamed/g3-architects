@@ -154,6 +154,7 @@ img {
 .title-container {
   display: flex;
   gap: 21px;
+  padding-right: 40px;
 }
 .line {
   width: 8px;
@@ -241,4 +242,72 @@ img {
   font-weight: 600;
   font-size: 18px;
   color: #727272;
+}
+/*===============================
+    Subscribe newsletter styles
+================================*/
+.subscribe-newsletter {
+  margin-top: 150px;
+}
+.contact-content {
+  text-align: center;
+  background: #fff;
+  box-shadow: rgb(100 100 111 / 20%) 0px 4px 45px 5px;
+  padding: 30px 0;
+}
+.contact-content form {
+  display: flex;
+  justify-content: center;
+}
+.contact-content form input {
+  border: none;
+  background: #dddddd94;
+  padding: 15px 11px;
+  width: 50%;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  outline: none;
+}
+
+button.primary-btn.subdcribe-btn {
+  padding: 0px 16px;
+  height: 45px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+/*========================
+    Our Sponsors styles
+==========================*/
+.sponsors {
+  margin-top: 130px;
+}
+.sponsors-titles {
+  text-align: center;
+}
+.sponsors-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-top: 50px;
+  column-gap: 150px;
+  align-items: center;
+}
+.sponsors-logo img {
+  filter: grayscale(100%);
+}
+/*========================
+    Footer styles
+==========================*/
+.footer {
+  margin-top: 130px;
+}
+.copyright {
+  background: #fff4e7;
+  border-radius: 8px;
+  padding: 40px 10px;
+  text-align: center;
+}
+.copyright p {
+  font-weight: 400;
+  font-size: 20px;
+  color: #424242;
 }
