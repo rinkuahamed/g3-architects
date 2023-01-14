@@ -16,7 +16,7 @@ body {
 }
 .container {
   width: 100%;
-  max-width: 1260px;
+  max-width: 1300px;
   padding: 0 20px;
   margin: 0 auto;
 }
@@ -55,6 +55,7 @@ a {
 }
 img {
   max-width: 100%;
+  height: 100%;
 }
 /*=====================
     Header styles
@@ -140,3 +141,63 @@ img {
 /*===========================
     About styles
 =============================*/
+.about {
+  padding-top: 130px;
+}
+.about-container {
+  display: grid;
+  grid-template-columns: 43% 57%;
+}
+.about-img {
+  margin-left: 100px;
+}
+.title-container {
+  display: flex;
+  gap: 21px;
+}
+.line {
+  width: 8px;
+  height: 106px;
+  background: #ff900e;
+}
+.about-box {
+  padding: 25px 30px;
+}
+.about-box-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #131313;
+  margin-bottom: 10px;
+}
+.about-img {
+  margin-left: 100px;
+}
+.about-img img {
+  object-fit: cover;
+  object-position: left;
+}
+.experience-area {
+  width: 300px;
+  height: 184px;
+  background: #ff900e;
+  padding: 50px 40px;
+  text-align: center;
+  border-radius: 8px;
+  position: relative;
+  margin-top: -139px;
+  margin-left: -84px;
+  z-index: 1;
+}
+
+.experience-area h3 {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 42px;
+  color: #fff;
+}
+
+.experience-area h3 small {
+  font-size: 21px;
+  font-weight: 500;
+}
