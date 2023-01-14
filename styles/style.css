@@ -85,6 +85,7 @@ img {
   font-size: 18px;
   line-height: 26px;
   color: #424242;
+  text-transform: capitalize;
 }
 /*=====================
      Banner styles
@@ -113,5 +114,29 @@ img {
   padding-bottom: 45px;
 }
 /*===========================
-    Features gallery styles
+    Architect team styles
+=============================*/
+.architect-team {
+  padding-top: 85px;
+}
+.architect-team-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 72px;
+  padding: 0 48px;
+  align-items: center;
+}
+.architect-team-galleries {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.color-quick-list {
+  color: #727272;
+}
+.color-feature {
+  color: #ff900e;
+}
+/*===========================
+    About styles
 =============================*/
