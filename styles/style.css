@@ -138,9 +138,9 @@ img {
 .color-feature {
   color: #ff900e;
 }
-/*===========================
+/*======================
     About styles
-=============================*/
+========================*/
 .about {
   padding-top: 130px;
 }
@@ -200,4 +200,45 @@ img {
 .experience-area h3 small {
   font-size: 21px;
   font-weight: 500;
+}
+/*======================
+    Some Facts styles
+========================*/
+.some-facts {
+  padding-top: 167px;
+}
+.some-facts-item-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 100px;
+  column-gap: 100px;
+  padding: 0 48px;
+}
+.some-fact-item {
+  text-align: center;
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+  padding: 40px 30px;
+  transition: transform 0.4s;
+}
+.some-fact-item:hover {
+  transform: translateY(-10px);
+}
+.some-fact-item img {
+  width: 46px;
+  height: 46px;
+  margin-bottom: 10px;
+}
+
+.some-fact-item h3 {
+  font-weight: 600;
+  font-size: 40px;
+  color: #424242;
+  margin-bottom: 5px;
+}
+
+.some-fact-item p {
+  font-weight: 600;
+  font-size: 18px;
+  color: #727272;
 }
