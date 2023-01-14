@@ -1,0 +1,117 @@
+/*=====================
+    Google fonts
+=======================*/
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap");
+
+/*=====================
+    Common styles
+=======================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+.container {
+  width: 100%;
+  max-width: 1260px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.primary-btn {
+  height: 64px;
+  background: #ff900e;
+  border-radius: 8px;
+  padding: 20px 24px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
+  margin-bottom: 24px;
+}
+.section-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  margin-bottom: 32px;
+}
+ul > li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+/*=====================
+    Header styles
+======================*/
+.header {
+  background: rgba(255, 144, 14, 0.1);
+  padding-top: 40px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo a {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
+}
+.menu ul {
+  display: flex;
+  justify-content: end;
+  gap: 60px;
+  align-items: center;
+}
+.menu ul li a {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #424242;
+}
+/*=====================
+     Banner styles
+======================*/
+.banner {
+  padding-top: 102px;
+}
+.banner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.banner-content {
+  text-align: center;
+  max-width: 862px;
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  color: #131313;
+  margin-bottom: 32px;
+}
+.banner-img {
+  padding-bottom: 45px;
+}
+/*===========================
+    Features gallery styles
+=============================*/
