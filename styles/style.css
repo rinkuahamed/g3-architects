@@ -481,7 +481,9 @@ button.primary-btn.subdcribe-btn {
   .about-img {
     margin-left: 0px;
   }
-
+  .section-description br {
+    display: none;
+  }
   .some-facts-item-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
